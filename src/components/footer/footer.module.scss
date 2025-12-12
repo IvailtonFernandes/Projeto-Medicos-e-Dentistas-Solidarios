@@ -1,0 +1,25 @@
+.sectionContato {
+    background-color: #0B0B0B;
+     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 4rem 6rem;
+    gap: 3rem;
+    color: #FFFFFF;
+
+    .divMeD {
+        border: solid 2px #FFFFFF   ;
+        display: flex;
+        flex-direction: column;
+       
+
+        article {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 0.80rem;
+        }
+    }
+    
+}

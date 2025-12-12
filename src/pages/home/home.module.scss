@@ -1,0 +1,167 @@
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 6rem;
+    gap: 3rem;
+
+    .conteudo {
+        max-width: 480px;
+
+        h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            line-height: 1.1;
+            margin: 1.5rem  0;
+            color: #000;
+        }
+
+        p {
+            font-size: 1.125rem;
+            color: #444;
+            line-height: 1.6;
+            margin-bottom: 2rem;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 2rem;
+
+
+            .btnUm {
+                padding: 12px 24px;
+                border-radius: 8px;
+                text-decoration: none;
+                font-weight: 500;
+                font-size: 1rem;
+                background: #00745A;
+                color: #fff;
+
+                &:hover {
+                    background-color: #02634c;
+                }
+            }
+
+            .btnDois {
+                padding: 12px 24px;
+                border-radius: 8px;
+                text-decoration: none;
+                font-weight: 500;
+                font-size: 1rem;
+                border: 2px solid #00745A;
+                color: #00745A
+            }
+        }
+    }
+}
+
+.sectionMissao {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 6rem;
+    background-color: #00745A;
+
+    h2 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      line-height: 1.1;
+      color: #FFFFFF;
+      margin-bottom: 20px;
+
+    }
+
+    p {
+      font-size: 1.125rem;
+      font-weight: 400;
+      color: #FFFFFF;
+    }
+
+    .boxCards {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        margin-top: 2rem;
+
+        article {
+            width: 450px;
+            height: 210px;
+            padding: 44px;
+            border: solid 1px #FFFFFF;
+            border-radius: 14px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h3 {
+                font-size: 1.5rem;
+                font-weight: 700;
+                color: #FFFFFF;
+                margin-bottom: 20px;
+               
+            }
+            p {
+                font-size: 1.125rem;
+                font-weight: 400;
+                color: #FFFFFF;
+                text-align: center;
+            }
+        }
+    }
+}
+.sectionImpacto {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 6rem;
+    
+
+    h2 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      line-height: 1.1;
+      color: #000000;
+      margin-bottom: 20px;
+
+    }
+
+    p {
+      font-size: 1.125rem;
+      font-weight: 400;
+      color: #000000;
+    }
+
+    .boxCards2 {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        margin-top: 2rem;
+
+        article {
+            width: 400px;
+            height: 210px;
+            padding: 30px;
+            border: solid 1px #000000;
+            border-radius: 14px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+
+            h3 {
+                font-size: 2.25rem;
+                font-weight: 700;
+                color: #00745A;
+                margin-bottom: 20px;
+               
+            }
+            p {
+                font-size: 1rem;
+                font-weight: 400;
+                color: #000000;
+                text-align: center;
+            }
+        }
+    }
+}
