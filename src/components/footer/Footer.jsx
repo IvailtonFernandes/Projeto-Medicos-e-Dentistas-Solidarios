@@ -15,7 +15,7 @@ const Footer = () => {
     </article>
 <p>Saúde e cuidado sem barreiras para toda comunidade.</p>
     </div>
-    <div>
+    <div className={s.divContato}>
         <h3>Contato</h3>
 <article>
     <img src={email} alt="imagem do email" />
@@ -30,12 +30,18 @@ const Footer = () => {
     <p>São Paulo, Brasil</p>
     </article>
     </div>
-    <div>
+    <div  className={s.divRedes}>
 <h3>Redes Sociais</h3>
 <p>Facebook</p>
 <p>Instagram</p>
 <p>LinkedIn</p>
     </div>
+</section>
+<section className={s.sectionDireitos}>
+    <div>
+        <p>© 2025 Médicos e Dentistas pela Comunidade. Todos os direitos reservados.</p>
+    </div>
+    
 </section>
 
    </footer>

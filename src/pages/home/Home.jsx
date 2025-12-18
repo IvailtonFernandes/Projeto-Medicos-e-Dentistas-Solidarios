@@ -8,7 +8,7 @@ const Home = () => {
       <section className={s.section}>
         <div className={s.conteudo}>
           <div>
-            <img src={Saude} alt="" />
+            <img src={Saude} alt="imagem de saúde"/>
           </div>
 
           <h1>Saúde e cuidado sem barreiras</h1>
